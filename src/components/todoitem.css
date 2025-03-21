@@ -1,0 +1,88 @@
+.completed {
+  text-decoration: line-through;
+  color: #908e8e;
+  background: linear-gradient(to left, rgba(25, 116, 25, 0.745), rgba(0, 255, 157, 0.912));
+}
+
+.completed button:hover {
+  cursor: auto;
+  border: 2px solid #ffffff;
+}
+
+.addItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+.addItem span, .editInput {
+  min-width: 70%;
+  text-align: start;
+  width: 35vw;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.custom-checkbox {
+  flex-shrink: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked {
+  background-color: #000;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.addItem button {
+  flex-shrink: 0; /* Evita que el botón se reduzca */
+  background-color: #73eb71;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px;
+  width: 6%;
+}
+
+.editInput {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (768px <= width <= 1024px) {
+  .addItem span, .editInput {
+    width: 55vw;
+  }
+ 
+  .addItem button {
+      background-color: #e9f085f8;
+      padding: 10px;
+      margin: 7px;
+      width: 6vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .addItem span, .editInput {
+    width: 45vw;
+    font-size: 0.85rem;
+  }
+
+  .addItem button {
+      background-color: #e9f085f8;
+      padding: 7px;
+      margin: 5px;
+      width: 10vw;
+  }
+}
