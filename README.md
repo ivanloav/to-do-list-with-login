@@ -38,8 +38,8 @@ Incluye un **checkbox "Recordar credenciales"** que, si se activa, guarda el ema
 
 ## 🚀 Demo
 
-🔗 [Ver la demo en Vercel](https://todolist-demo.vercel.app) <!-- Cambia este enlace si tienes uno real -->  
-📂 [Ver el repositorio en GitHub](https://github.com/tuusuario/todo-list-login)
+🔗 [Ver la demo en Vercel](https://todolist-with-login-demo.vercel.app/) <!-- Cambia este enlace si tienes uno real -->  
+📂 [Ver el repositorio en GitHub](https://github.com/ivanloav/to-do-list-with-login)
 
 ---
 
