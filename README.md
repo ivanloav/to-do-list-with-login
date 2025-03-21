@@ -47,8 +47,8 @@ Incluye un **checkbox "Recordar credenciales"** que, si se activa, guarda el ema
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tuusuario/todo-list-login.git
-cd todo-list-login
+git clone https://github.com/ivanloav/to-do-list-with-login.git
+cd to-do-list-with-login
 ```
 
 2. Instala las dependencias:
